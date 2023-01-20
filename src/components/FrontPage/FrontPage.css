@@ -1,0 +1,111 @@
+.home-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+ z-index: 1;
+flex-direction: column;
+object-fit: contain;
+font-family: helvetica;
+
+}
+.home-text {
+    display: flex;
+
+ font-family:  Nexa;
+ margin: 0 auto;
+margin-left: 90px;
+ flex-direction: column;
+ 
+}
+.home-header {
+    width: 30%;
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 20vh;
+
+    padding: 10px;
+    padding-bottom: 0px;
+}
+.home-sub {
+    display: flex;
+    font-size: 20px;
+  width: 50%;
+padding: 0;
+    margin-right: 20px;
+    align-items: center;
+    flex-direction: row;
+
+}
+.home-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+   align-self: flex-end;
+    border-top-left-radius: 20px;
+  margin-top: 6rem;
+  width: 60%;
+   flex-direction: row;
+   justify-content: space-around;
+    height: 80px;
+   align-items: center;
+   align-content: center;
+    background-color: white;
+}
+.home-location, .home-date,   .home-price {
+    display: flex;
+    flex-direction: column;
+  height: 100%;
+
+
+}
+.small-text {
+ display: flex;
+ margin: 0 auto;
+  justify-content: center;
+ font-size: 18px;
+ align-items: center;
+ font-weight: 500;
+ padding-top: 18px;
+ margin-bottom: 15px;
+}
+.big-text {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+.icon {
+    width: 45px;
+    height: 45px;
+    align-items: center;
+    display: flex;
+    margin-right: 5px;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+}
+.home-search {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  border-radius: 5px;
+    background-color: #ff7324;
+    width: 80%;
+    
+    height: 70%;
+}
+.search-text {
+    font-size: 15px;
+    font-weight: 700;
+}
